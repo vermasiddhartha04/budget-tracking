@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.budget-container {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.budget {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.balance span {
+    font-weight: bold;
+}
+
+.transactions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.input-form input[type="text"],
+.input-form input[type="number"],
+.input-form button {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.input-form button {
+    cursor: pointer;
+}
